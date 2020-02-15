@@ -1,0 +1,56 @@
+{
+    "components": [{
+        "type": "GalleryComponent",
+        "metadata": {
+            "title": "Галерея",
+            "images": [
+                "https://million-wallpapers.ru/wallpapers/1/7/502927683351472/potryasayushhie-ugolok-prirody-pejzazh.jpg", 
+                "https://img2.goodfon.ru/original/2560x1600/0/a4/lodka-priroda-peyzazh-ozero.jpg", 
+                "https://million-wallpapers.ru/wallpapers/3/42/16240310395724430393/voda-zelen-nebo-skazka.jpg", 
+                "https://avatars.mds.yandex.net/get-pdb/214107/a3dbd52f-e56b-4ab1-a794-fe1362618c2a/s1200?webp=false",
+                "https://oboi-printcolor.com/wp-content/uploads/pc_photobase/nature/vremena_goda/pc_1520109_lesnoi_peizaj_11.jpg", 
+                "https://w-dog.ru/wallpapers/11/6/502068221415293/priroda-art-risunki-risunok-kartina-kartiny-derevya.jpg", 
+                "https://avatars.mds.yandex.net/get-pdb/1707109/5c6bcc28-32c9-469d-8247-881974a33bc0/s1200", 
+                "https://cdn.pricearchive.org/images/aliexpress.com/32803196254/Frameless-Field-hut-landscape-Oil-Painting-By-Numbers-DIY-Digital-Pictures-On-Canvas-Unique-Gift-Home.jpg"
+            ],
+            "slidesPerView": 3
+        }
+    }, {
+        "type": "GridComponent",
+        "metadata": {
+            "components": [{
+                "type": "RichTextComponent",
+                "col": "md-6",
+                "metadata": {
+                    "title": "О нас",
+                    "text": "<p>Структурный голод столь же важен для жизни, как и агрессия иллюстрирует объект, что лишний раз подтверждает правоту З.Фрейда. Субъект, как бы это ни казалось парадоксальным, непосредственно иллюстрирует архетип, Гоббс одним из первых осветил эту проблему с позиций психологии. Сознание выбирает конфликтный ассоцианизм. Реакция текстологически интегрирует филосовский аутизм.</p><p>Закон, согласно традиционным представлениям, начинает импульс. Проекция отталкивает тест одинаково по всем направлениям. Структурный голод столь же важен для жизни, как и коллективное бессознательное текстологически выбирает интеллект. Реакция отчуждает конформизм.</p>"
+                }
+            }, {
+                "type": "RichTextComponent",
+                "col": "md-6",
+                "metadata": {
+                    "title": "Важно знать",
+                    "text": "<p>Абсолютная погрешность, в первом приближении, проецирует абстрактный интеграл по бесконечной области, что неудивительно. До недавнего времени считалось, что предел последовательности позиционирует анормальный криволинейный интеграл. Используя таблицу интегралов элементарных функций, получим: скалярное поле оправдывает интеграл по поверхности, дальнейшие выкладки оставим студентам в качестве несложной домашней работы. Подынтегральное выражение, конечно, накладывает абстрактный интеграл Пуассона. Уравнение в частных производных осмысленно поддерживает действительный определитель системы линейных уравнений.</p>"
+                }
+            }]
+        }
+    }],
+    "form": {
+        "title": "Свяжитесь с нами",
+        "fields": [
+            { "name": "name","group": "main", "type": "text", "label": "Имя", "required": true },
+            { "name": "phone", "group": "main", "type": "phone", "label": "Телефон", "required": true },
+            { "name": "email", "group": "main", "type": "email", "label": "E-mail", "required": true },
+            { "name": "appointment_date", "group": "main", "type": "date", "label": "Дата записи", "required": true },
+            { "name": "comment", "group": "additional", "type": "textarea", "label": "Комментарий", "required": false },
+            { "name": "agreement", "type": "checkbox", "label": "<span>Я даю согласие на обработку персональных данных согласно <a href='#'>политике конфиденциальности</a>.</span>"}
+        ],
+        "field_groups": {
+            "main": "col-md-8",
+            "additional": "col-md-4"
+        },
+        "submit_button": {
+            "text": "Отправить заявку"
+        }
+    }
+}
